@@ -1,2 +1,2 @@
-# jhongert.github.io
-Cool repo page!
+# Responsive-Portfolio
+A responsive portfolio using media queries

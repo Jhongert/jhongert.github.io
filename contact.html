@@ -1,63 +1,70 @@
-<!DOCTYPE html>
-<html lang="es-us">
-	<head>
-		<meta charset="UTF-8">
-		<title>Jhongert Fuertes | Cantact Me</title>
+<!doctype html>
+<html lang="en-us">
 
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Jhongert Fuertes</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<body>
-		<!--Header-->
-		<header>
-			<div class="container">
-				<nav class="navbar">
-				    <div class="navbar-header">
-				      	<a href="index.html"><h1>Jhongert Fuertes</h1></a>
-				    </div>
-				    
-				    <div class="navbar-nav">
-				    	<a href="index.html">About</a>
-				    	<a href="portfolio.html">Portfolio</a>
-				    	<a href="contact.html">Contact</a>
-				    </div>
-				 </nav>
-			</div>
-		</header>
-		
-		<div class="container clearfix">
-			<!--Main-->
-			<main class="main-content" role="main">	
-				<h1>Contact</h1>
-				<hr>
-				<form>
-					<label>Name</label>
-					<input type="text" name="name" placeholder="John Smith">
-					<label>Email</label>
-					<input type="text" name="email" placeholder="example@gmail.com">
-					<label>Message</label>
-					<textarea name="message" rows="10"></textarea>
-					<input type="submit" name="submit" class="btn">
-				</form>
-			</main>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-			<!--Sidebar-->
-			<aside class="sidebar">
-				<h2>Connect with Me</h2>
-				<hr>
-				<div class="social">
-					<a href="https://github.com/jhongert" target="_blank"><img src="assets/images/github.png"></a>
-					<a href="https://www.linkedin.com/in/jhongertf" target="_blank"><img src="assets/images/linkedin.png"></a>
-					<a href="http://stackoverflow.com/users/7700716/jhongert-fuertes" target="_blank"><img src="assets/images/stackoverflow.png"></a>
-				</div>
-			</aside>
-			<!-- End sidebar -->
-		</div> <!-- End container -->
+<body>
 
-		<!--Footer-->
-		<footer>
-			<p>&#169; Copyright 2017 Jhongert Fuertes</p>
-		</footer>
-	</body>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Jhongert Fuertes</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <div class="main-section">
+            <section class="content">
+                <h1>Contact</h1>
+
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+
+            </section>
+        </div>
+        <div class="sidebar">
+            <section class="connect">
+                <h2>Connect with Me</h2>
+
+                <a href="https://github.com/jhongert" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+                <a href="https://www.linkedin.com/in/jhongertf" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+                <a href="http://stackoverflow.com/users/7700716/jhongert-fuertes" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy; 2016 Jhongert Fuertes
+        </div>
+    </footer>
+</body>
+
 </html>
