@@ -1,4 +1,3 @@
-
 html{
 	position: relative;
 	min-height: 100%;
@@ -18,48 +17,41 @@ header .container {
 	max-width: 980px;
 }
 
-
-.main-content {
+.box {
 	background-color: #4e5d6c;
 	padding: 15px;
 	margin-bottom: 20px;
 }
 
-.main-content h1{
-	border-bottom: 1px solid #2b3e50;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
+.box h1 {
+	text-align: center;
 }
 
-/*sidebar*/
-
-.sidebar {
-	margin-bottom: 20px;
+.social-links img{
+	max-width: 30px;
+	margin-right: 8px;
+}
+.social-links img:hover {
+	opacity: 0.8;
 }
 
-.social, #skills {
-	background-color: #4e5d6c;
-	border-color: #4e5d6c;
-	padding: 5px 25px 25px;
-	margin-bottom: 30px;
-}
-
-.social-links {
-	max-width: 245px;
-}
-
-#skills ul{
-	margin-top: 10px;
+.skills {
+	margin-top: 20px;
 	list-style: none;
 	padding-left: 0;
 	overflow:hidden;
 }
 
-#skills ul li{
+.skills li{
 	float: left;
-	width: 50%;
+	width: 25%;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
+.devicons:before {
+	font-size: 5em;
+}
 /*footer*/
 footer {
 	text-align: center;
@@ -70,7 +62,6 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    border-top: 5px solid #395c82;
 }
 
 footer p{
@@ -78,38 +69,9 @@ footer p{
 	font-size: 12px;
 }
 
-hr {
-	border-color: #4e5d6c;
-}
-
-/* social */
-.social img {
-	width: 28%;
-	height: auto;
-}
-
-.social h2, #skills h2{
-	border-bottom: 1px solid #2b3e50;
-	padding-bottom: 15px;
-	margin-bottom: 20px;
-}
-
-.social-links a:nth-child(-n+2) {
-    margin-right: 5%;
-}
-
-.social img:hover {
-	opacity: 0.8;
-}
-
-
-.navbar h1, h3 {
-  		margin-top: 10px;
-  		margin-bottom: 10px;
-  	}
-
 .work {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	padding-top: 20px;
 }
 
 .work h3 {
@@ -117,37 +79,34 @@ hr {
 	line-height: 1;
 }
 
-.work img {
-	margin-bottom: 10px;
-}
-/*.work img{
-	width: 100%;
+#mailto {
+	color: #fff;
+	background-color: #DF691A;
+	border-color: #DF691A;
+	display: inline-block;
+	font-weight: 400;
+	vertical-align: middle;
+	padding: 4px 10px;
+	line-height: 1.5;
+	border-radius: 4px;
+	text-decoration: none;
 }
 
-
-.work h3 {
-    background: #5cb85c;
+#mailto:hover {
     color: #fff;
-    text-align: center;
-    padding: 15px;
-    bottom: 15px;
-    line-height: 30px;
-    margin-bottom: 0;
-    font-weight: 300;
-    position: absolute;
-    width: 100%;
-   
- }
-
-.work h3:hover{
-	color: #ddd;
-}*/
+    background-color: #bd5916;
+    border-color: #b15315;
+}
 
 .rounded {border-radius: 10px}
 
- /*@media screen and (max-width: 767px) {
-	.profile-info {
+ @media screen and (max-width: 767px) {
+	.profile-info, h3, .work p {
 		text-align: center;
 	}
+
+	.skills li{
+		width: 50%;
+	}
   	
-}*/
+}
