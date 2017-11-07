@@ -79,6 +79,10 @@ footer p{
 	line-height: 1;
 }
 
+.work img {
+	margin-bottom: 10px;
+}
+
 #mailto {
 	color: #fff;
 	background-color: #DF691A;
